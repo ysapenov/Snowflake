@@ -1,14 +1,13 @@
-Lab Overview
-
+Lab Overview  
 For those who begin to study Snowflake from scratch, it is recommended to start with “Hands-On Lab Guide for Snowflake Free Trial” that describes how to work with the main database features in the form of step-by-step guide.  
 This Lab offers a high-level description of the practical task for self-directed learning.  
 The target group for the Lab are DWBI engineers with experience in building Data Warehouses using other databases (Oracle, MS SQL, Teradata, etc.).  
-Lab Data Set
 
+Lab Data Set  
 Data set from TPC-H benchmark (https://www.tpc.org/tpch/) is proposed for the Lab. TPC-H allows you to generate data for 8 tables. The data volume (in gigabytes) is defined by scale factor (SF). 
 
-Lab Description
-Hands-on-lab is considered as completed if you score >= 60 points.
+Lab Description  
+Hands-on-lab is considered as completed if you score >= 60 points.  
 (Tasks 1, 8 – 5 points each, Tasks 2, 4, 5, 6 – 10 points each, Task 3 – 30 points, Task 7 – 20 points).
 
 1.	Database creation  
@@ -22,8 +21,8 @@ Create two schemas in the DB you created before:
 •	CORE_DWH  
 •	DATA_MART  
 Develop the following automated data workflow:  
-Stage -> CORE_DWH -> DATA_MART
-Data in CORE_DWH should be modeled according to 3NF (as is - no transformation). Star Schema is a target data model for DATA_MART (data should be transformed accordingly).
+Stage -> CORE_DWH -> DATA_MART  
+Data in CORE_DWH should be modeled according to 3NF (as is - no transformation). Star Schema is a target data model for DATA_MART (data should be transformed accordingly).  
 The following Snowflake features should be used:  
 •	Tasks  
 •	Stored Procedures  
