@@ -12,7 +12,14 @@ I have used Snowflake in two projects, primarily as a data source for Power BI r
 
 ## Certification
 
-I obtained the SnowPro® Core Certification in 2023, demonstrating my proficiency in Snowflake technologies and best practices.
+I obtained the SnowPro® Core Certification in 2023, demonstrating my proficiency in Snowflake technologies and best practices. To prepare for this certification, I completed a Hands-On Lab that covered various aspects of Snowflake:
+
+- Database creation and data loading
+- ELT Data Workflow implementation 
+- Integration with BI tools and SQL editors
+- Performance optimization with different warehouse sizes and caching techniques
+- Other Snowflake features: Object Cloning, Time Travel, Data Sharing
+- Snowpipe for automated incremental data loading
 
 ## Projects
 
